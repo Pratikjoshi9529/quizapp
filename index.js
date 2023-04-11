@@ -23,6 +23,7 @@ document.getElementById("startAgain").addEventListener('click', function () {
 
     document.getElementById("questionArea").style.display = "block";
     document.getElementById("resultArea").style.display = "none";
+    next(questions,0);
 
 })
 
